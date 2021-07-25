@@ -1,0 +1,28 @@
+label {
+    margin: 10px 5px 10px 5px;
+}
+
+input {
+    margin-right: 20px; 
+    font-weight: bold;
+}
+
+.NewBoxForm-BtnAdd {
+    display: block;
+    padding: 3px 10px 3px 10px;
+    margin: 15px 0 15px 5px;
+}
+
+.NewBoxForm {
+    background-color: cyan;
+    margin: 5px 0 5px 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:darkblue;
+    border-width: 3px;
+}
+
+.NewBoxForm-InpNbr {
+    width: 4.5rem;
+}
+

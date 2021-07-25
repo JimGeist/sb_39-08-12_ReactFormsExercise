@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoxList component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="BoxList-Main"
+  >
+    <form
+      class="NewBoxForm"
+    >
+      <label
+        for="width"
+      >
+        Box Width:
+      </label>
+      <input
+        class="NewBoxForm-InpNbr"
+        id="width"
+        name="width"
+        type="number"
+        value=""
+      />
+      <label
+        for="height"
+      >
+        Box Height:
+      </label>
+      <input
+        class="NewBoxForm-InpNbr"
+        id="height"
+        name="height"
+        type="number"
+        value=""
+      />
+      <label
+        for="bgColor"
+      >
+        Box Color:
+      </label>
+      <input
+        id="bgColor"
+        name="bgColor"
+        type="text"
+        value=""
+      />
+      <button
+        class="NewBoxForm-BtnAdd"
+      >
+        Add Box
+      </button>
+    </form>
+    <div />
+  </div>
+</DocumentFragment>
+`;

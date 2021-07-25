@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo component with test todo item matches snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="Todo-li"
+    data-testid="^Todo Item^"
+  >
+    This is a test todo message
+    <button
+      class="Todo-BtnDelete"
+    >
+      X
+    </button>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Todo component without props matches snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="Todo-li"
+    data-testid="^Todo Item^"
+  >
+    <button
+      class="Todo-BtnDelete"
+    >
+      X
+    </button>
+  </li>
+</DocumentFragment>
+`;

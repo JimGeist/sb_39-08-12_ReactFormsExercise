@@ -1,0 +1,11 @@
+.Box {
+    margin: 5px 0 5px 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    float:left;
+}
+.Box-BtnDelete {
+    margin: 5px 5px 0 5px;
+}

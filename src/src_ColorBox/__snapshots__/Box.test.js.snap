@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box component with width, height, and color background matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Box"
+  >
+    <div
+      class="Box"
+      data-testid="^Color Box^"
+      style="width: 100px; height: 100px; background-color: black;"
+    />
+    <button
+      class="Box-BtnDelete"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Box component without props matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Box"
+  >
+    <div
+      class="Box"
+      data-testid="^Color Box^"
+    />
+    <button
+      class="Box-BtnDelete"
+    >
+      X
+    </button>
+  </div>
+</DocumentFragment>
+`;
